@@ -1,3 +1,3 @@
 #!/bin/bash
-yum install -y httpd
+docker build -t final_python .
 
