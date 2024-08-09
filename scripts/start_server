@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo docker run --name final_python -p 5000:5000 final_python
-
+docker run -d --name final_python -p 5000:5000 olesyas/final_python
