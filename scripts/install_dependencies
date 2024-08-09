@@ -2,5 +2,5 @@
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 # Install image
-docker build -t final_python .
+sudo docker build -t final_python .
 
